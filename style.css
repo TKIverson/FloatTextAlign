@@ -1,0 +1,81 @@
+
+
+
+/*Browser Reset*/
+
+*{
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+/*Page Styles*/
+
+body{
+background-color: rgb(232, 209, 216);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+font-size: xx-large;
+}
+
+h2{
+    color:  rgb(135, 73, 98);
+text-align: center;
+}
+
+h3{
+    font-size: larger;
+    text-shadow: 1px 1px 1px white;
+}
+
+header, footer{
+    padding: 2em;
+background-color: rgb(135, 73, 98);
+text-align: center;
+text-shadow: 1px .5px 1px  white;
+text-transform: capitalize;
+}
+
+nav{
+    background-color: white;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 1em;
+}
+
+nav li{
+    float: left;
+    padding-bottom: 1em;
+
+}
+
+nav a{
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+}
+
+
+main{
+
+}
+
+section, article, aside{
+    width: 30%;
+    border: 1px solid #999;
+    padding: 1em;
+    float: left;
+    margin: 1em;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
